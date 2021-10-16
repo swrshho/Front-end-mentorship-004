@@ -1,6 +1,7 @@
+// reseting css
+
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
@@ -8,8 +9,7 @@ html {
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body,
@@ -36,4 +36,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-/*# sourceMappingURL=style.css.map */
