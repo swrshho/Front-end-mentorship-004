@@ -1,0 +1,70 @@
+// addding fonts
+
+/* 
+  font weights:
+
+  Light: 100
+  Regular: 200
+  Medium: 300
+  SemiBold: 400
+  Bold: 500
+  ExtraBold: 600
+  Black: 700
+  Heavy: 800
+*/
+
+@font-face {
+  font-family: 'gilory';
+  src: url('../../fonts/Gilroy-Light.ttf');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'gilory';
+  src: url('../../fonts/Gilroy-Regular.ttf');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'gilory';
+  src: url('../../fonts/Gilroy-Medium.ttf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'gilory';
+  src: url('../../fonts/Gilroy-SemiBold.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'gilory';
+  src: url('../../fonts/Gilroy-Bold.ttf');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'gilory';
+  src: url('../../fonts/Gilroy-ExtraBold.ttf');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'gilory';
+  src: url('../../fonts/Gilroy-Black.ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'gilory';
+  src: url('../../fonts/Gilroy-Heavy.ttf');
+  font-style: normal;
+  font-weight: 800;
+}
