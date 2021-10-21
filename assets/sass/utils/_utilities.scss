@@ -1,0 +1,31 @@
+// Utilities and helper classes
+
+// flexbox
+.flex {
+  display: flex;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+// cursor
+.cp {
+  cursor: pointer;
+}
