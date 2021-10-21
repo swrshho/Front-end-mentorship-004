@@ -1,5 +1,13 @@
+// importing scss files
+
+// base folder
 @import 'base/reset';
 @import 'base/fonts';
 @import 'base/typography';
+
+// utils folder
 @import 'utils/variables';
 @import 'utils/utilities';
+
+// components folder
+@import 'components/header';

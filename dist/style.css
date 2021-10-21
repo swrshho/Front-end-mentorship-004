@@ -51,56 +51,56 @@ img {
 */
 @font-face {
   font-family: 'gilory';
-  src: url("../../fonts/Gilroy-Light.ttf");
+  src: url("/assets/fonts/Gilroy-Light.ttf");
   font-style: normal;
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'gilory';
-  src: url("../../fonts/Gilroy-Regular.ttf");
+  src: url("/assets/fonts/Gilroy-Regular.ttf");
   font-style: normal;
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'gilory';
-  src: url("../../fonts/Gilroy-Medium.ttf");
+  src: url("/assets/fonts/Gilroy-Medium.ttf");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'gilory';
-  src: url("../../fonts/Gilroy-SemiBold.ttf");
+  src: url("/assets/fonts/Gilroy-SemiBold.ttf");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'gilory';
-  src: url("../../fonts/Gilroy-Bold.ttf");
+  src: url("/assets/fonts/Gilroy-Bold.ttf");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'gilory';
-  src: url("../../fonts/Gilroy-ExtraBold.ttf");
+  src: url("/assets/fonts/Gilroy-ExtraBold.ttf");
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'gilory';
-  src: url("../../fonts/Gilroy-Black.ttf");
+  src: url("/assets/fonts/Gilroy-Black.ttf");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'gilory';
-  src: url("../../fonts/Gilroy-Heavy.ttf");
+  src: url("/assets/fonts/Gilroy-Heavy.ttf");
   font-style: normal;
   font-weight: 800;
 }
@@ -153,5 +153,26 @@ p {
 
 .cp {
   cursor: pointer;
+}
+
+.navbar {
+  padding: 3rem 4rem;
+  background-color: #f3d3c5;
+}
+
+.menu-list {
+  width: 26.5rem;
+}
+
+.menu-list__item {
+  font-family: gilory;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+  color: black;
+  margin-right: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

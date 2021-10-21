@@ -1,0 +1,25 @@
+.navbar {
+  padding: 3rem 4rem;
+  background-color: $strongPink;
+}
+
+// .logo-div {
+//   flex-grow: 1;
+//   border: 2px solid black;
+// }
+
+.menu-list {
+  width: 26.5rem;
+  // flex-grow: 3;
+  &__item {
+    font-family: gilory;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+  color: black;
+  margin-right: 2rem;
+}
