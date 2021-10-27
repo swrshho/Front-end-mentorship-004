@@ -1,0 +1,24 @@
+.lenders {
+  background-color: $lightPink;
+
+  #lenders-heading {
+    font-size: 3rem;
+    color: $gray;
+    letter-spacing: 2px;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+  }
+
+  &__icons {
+    margin-bottom: 4rem;
+    width: 85%;
+  }
+
+  &__links {
+    display: block;
+  }
+
+  &__logos {
+    height: 3rem;
+  }
+}

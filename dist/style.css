@@ -181,7 +181,7 @@ p {
   width: 100%;
   height: calc(100vh - 75px);
   background-image: url(/assets/images/hero.jpg);
-  background-position: center 20%;
+  background-position: center 35%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -191,7 +191,7 @@ p {
   font-weight: 700;
   letter-spacing: -2px;
   color: #463232;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .hero .hero-info {
@@ -243,5 +243,30 @@ p {
 
 .hero .hero-info .social-icons > :not(:last-child) {
   margin-bottom: 2rem;
+}
+
+.lenders {
+  background-color: #fef6f0;
+}
+
+.lenders #lenders-heading {
+  font-size: 3rem;
+  color: #4e4e4d;
+  letter-spacing: 2px;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.lenders__icons {
+  margin-bottom: 4rem;
+  width: 85%;
+}
+
+.lenders__links {
+  display: block;
+}
+
+.lenders__logos {
+  height: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
