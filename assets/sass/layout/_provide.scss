@@ -1,0 +1,30 @@
+.provide {
+  padding-top: 10rem;
+  &__wraper {
+    width: 85%;
+  }
+
+  &__img {
+    width: 45%;
+    box-shadow: -25px 24px 0px 0px $strongPink;
+  }
+
+  &__text {
+    width: 45%;
+    h1 {
+      color: $brown;
+      font-size: 7rem;
+      font-weight: 200;
+    }
+    p {
+      font-size: 1.5rem;
+      color: $lightGray;
+      line-height: 2;
+    }
+  }
+
+  &__btn {
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+  }
+}

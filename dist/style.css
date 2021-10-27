@@ -457,6 +457,41 @@ p {
   background-color: black;
 }
 
+.provide {
+  padding-top: 10rem;
+}
+
+.provide__wraper {
+  width: 85%;
+}
+
+.provide__img {
+  width: 45%;
+  -webkit-box-shadow: -25px 24px 0px 0px #f2d6c8;
+          box-shadow: -25px 24px 0px 0px #f2d6c8;
+}
+
+.provide__text {
+  width: 45%;
+}
+
+.provide__text h1 {
+  color: #463232;
+  font-size: 7rem;
+  font-weight: 200;
+}
+
+.provide__text p {
+  font-size: 1.5rem;
+  color: #989898;
+  line-height: 2;
+}
+
+.provide__btn {
+  margin-top: 1rem;
+  padding: 1rem 4rem;
+}
+
 .primary-btn {
   display: inline-block;
   color: white;
