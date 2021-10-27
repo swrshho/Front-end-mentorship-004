@@ -433,6 +433,30 @@ p {
   padding: 1rem 3rem;
 }
 
+.overall {
+  margin-top: 15rem;
+  padding: 2rem 0;
+  background-color: #fef6f0;
+  text-align: center;
+}
+
+.overall__text h2 {
+  color: #463232;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.overall__text p {
+  font-size: 1.5rem;
+  color: #989898;
+}
+
+.overall__seperator {
+  width: 2px;
+  height: 10rem;
+  background-color: black;
+}
+
 .primary-btn {
   display: inline-block;
   color: white;

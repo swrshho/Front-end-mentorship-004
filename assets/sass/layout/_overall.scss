@@ -1,0 +1,23 @@
+.overall {
+  margin-top: 15rem;
+  padding: 2rem 0;
+  background-color: $lightPink;
+  text-align: center;
+  &__text {
+    h2 {
+      color: $brown;
+      font-size: 4rem;
+      font-weight: 500;
+    }
+    p {
+      font-size: 1.5rem;
+      color: $lightGray;
+    }
+  }
+
+  &__seperator {
+    width: 2px;
+    height: 10rem;
+    background-color: black;
+  }
+}
