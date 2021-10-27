@@ -157,7 +157,7 @@ p {
 
 .navbar {
   padding: 3rem 4rem;
-  background-color: #f3d3c5;
+  background-color: #f2d6c8;
 }
 
 .menu-list {
@@ -174,5 +174,74 @@ p {
   font-size: 1.2rem;
   color: black;
   margin-right: 2rem;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-image: url(/assets/images/hero.jpg);
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .hero-heading h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: #463232;
+  margin-top: 5rem;
+}
+
+.hero .hero-info {
+  width: 36.3rem;
+  margin-left: 5rem;
+  margin-top: 7rem;
+}
+
+.hero .hero-info__text {
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+.hero .hero-info__text > :not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.hero .hero-info__search-bar {
+  background-color: white;
+  width: 26rem;
+  padding: 0.7rem 0.5rem;
+  margin-top: 5rem;
+}
+
+.hero .hero-info__search-bar input {
+  border: none;
+}
+
+.hero .hero-info__search-bar a {
+  background-color: #463232;
+  padding: 1rem;
+  width: 4rem;
+}
+
+.hero .hero-info__search-bar i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.hero .hero-info .social-icons {
+  position: absolute;
+  right: 4.5rem;
+}
+
+.hero .hero-info .social-icons i {
+  color: #4e4e4d;
+  font-size: 3rem;
+}
+
+.hero .hero-info .social-icons > :not(:last-child) {
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
