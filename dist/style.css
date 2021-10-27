@@ -37,6 +37,10 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* 
   font weights:
 
@@ -179,7 +183,7 @@ p {
 .hero {
   position: relative;
   width: 100%;
-  height: calc(100vh - 75px);
+  height: 110vh;
   background-image: url(/assets/images/hero.jpg);
   background-position: center 35%;
   background-repeat: no-repeat;
@@ -231,6 +235,11 @@ p {
   color: white;
 }
 
+.hero .hero-info .hero-btn {
+  padding: 1rem 5rem;
+  margin-top: 9rem;
+}
+
 .hero .hero-info .social-icons {
   position: absolute;
   right: 4.5rem;
@@ -268,5 +277,84 @@ p {
 
 .lenders__logos {
   height: 3rem;
+}
+
+.about-us__wraper {
+  width: 85%;
+  margin-top: 6rem;
+}
+
+.about-us__1 #about-us-heading {
+  font-size: 6rem;
+  color: #463232;
+}
+
+.about-us__1__text {
+  width: 36rem;
+}
+
+.about-us__1__text p {
+  font-size: 1.5rem;
+  color: #4e4e4d;
+}
+
+.about-us__1__btn {
+  margin-top: 3rem;
+  padding: 1rem 5rem;
+}
+
+.about-us__1__img {
+  height: 52rem;
+  width: 45rem;
+  background-image: url(/assets/images/about-us-2.jpg);
+  background-size: cover;
+  background-position: 19% center;
+  margin-top: 7rem;
+}
+
+.about-us__2__text {
+  width: 53rem;
+  line-height: 2;
+}
+
+.about-us__2__text p {
+  font-size: 1.5rem;
+  color: #4e4e4d;
+}
+
+.about-us__2__img {
+  height: 52rem;
+  width: 45rem;
+  background-image: url(/assets/images/about-us-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 2rem;
+}
+
+.about-us__2__btn {
+  margin-top: 1rem;
+  padding: 0 4rem;
+}
+
+.primary-btn {
+  display: inline-block;
+  color: white;
+  background-color: #463232;
+  font-family: 'gilory';
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  -webkit-box-shadow: 0px 15px 25px 2px #4e4e4d;
+          box-shadow: 0px 15px 25px 2px #4e4e4d;
+}
+
+.secondry-btn {
+  display: inline-block;
+  color: #4e4e4d;
+  font-family: 'gilory';
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  border: 2px solid #4e4e4d;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+.about-us {
+  &__wraper {
+    width: 85%;
+    margin-top: 6rem;
+  }
+
+  &__1 {
+    #about-us-heading {
+      font-size: 6rem;
+      color: $brown;
+    }
+
+    &__text {
+      width: 36rem;
+      p {
+        font-size: 1.5rem;
+        color: $gray;
+      }
+    }
+
+    &__btn {
+      margin-top: 3rem;
+      padding: 1rem 5rem;
+    }
+
+    &__img {
+      height: 52rem;
+      width: 45rem;
+      background-image: url(/assets/images/about-us-2.jpg);
+      background-size: cover;
+      background-position: 19% center;
+      margin-top: 7rem;
+    }
+  }
+
+  &__2 {
+    &__text {
+      width: 53rem;
+      line-height: 2;
+      p {
+        font-size: 1.5rem;
+        color: $gray;
+      }
+    }
+
+    &__img {
+      height: 52rem;
+      width: 45rem;
+      background-image: url(/assets/images/about-us-1.jpg);
+      background-size: cover;
+      background-position: center center;
+      margin-bottom: 2rem;
+    }
+
+    &__btn {
+      margin-top: 1rem;
+      padding: 0 4rem;
+    }
+  }
+}

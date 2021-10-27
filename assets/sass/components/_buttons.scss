@@ -1,0 +1,20 @@
+.primary-btn {
+  display: inline-block;
+  color: white;
+  background-color: $brown;
+  font-family: 'gilory';
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  box-shadow: 0px 15px 25px 2px $gray;
+}
+
+.secondry-btn {
+  display: inline-block;
+  color: $gray;
+  font-family: 'gilory';
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  border: 2px solid $gray;
+}
