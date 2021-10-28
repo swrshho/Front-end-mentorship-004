@@ -1,0 +1,76 @@
+.customers {
+  background-color: $lightPink;
+  margin-top: 10rem;
+  &__heading {
+    text-align: center;
+    width: 60%;
+    margin-top: 7rem;
+    h1 {
+      color: $brown;
+      font-size: 8rem;
+      font-weight: 200;
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: $lightGray;
+    }
+  }
+
+  &__wraper {
+    margin-top: 8rem;
+    width: 85%;
+  }
+
+  &__card {
+    background-color: white;
+    width: 30%;
+    padding: 3.2rem 2rem;
+    margin-bottom: 9rem;
+
+    &__stars {
+      display: inline-block;
+      margin-bottom: 3rem;
+      * {
+        color: $golden;
+      }
+    }
+
+    &__comment {
+      font-size: 1.5rem;
+      color: $lightGray;
+      line-height: 1.7;
+      width: 80%;
+      margin-bottom: 3rem;
+    }
+    &__profile {
+      display: flex;
+
+      &__title {
+        display: flex;
+        flex-direction: column;
+        font-family: 'gilory';
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        * {
+          display: inline-block;
+        }
+        &__name {
+          letter-spacing: 0.5px;
+          margin-bottom: 0.3rem;
+        }
+
+        &__job {
+          color: $lightGray;
+        }
+      }
+      &__image {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}

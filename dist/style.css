@@ -492,6 +492,98 @@ p {
   padding: 1rem 4rem;
 }
 
+.customers {
+  background-color: #fef6f0;
+  margin-top: 10rem;
+}
+
+.customers__heading {
+  text-align: center;
+  width: 60%;
+  margin-top: 7rem;
+}
+
+.customers__heading h1 {
+  color: #463232;
+  font-size: 8rem;
+  font-weight: 200;
+}
+
+.customers__heading p {
+  font-size: 1.5rem;
+  color: #989898;
+}
+
+.customers__wraper {
+  margin-top: 8rem;
+  width: 85%;
+}
+
+.customers__card {
+  background-color: white;
+  width: 30%;
+  padding: 3.2rem 2rem;
+  margin-bottom: 9rem;
+}
+
+.customers__card__stars {
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.customers__card__stars * {
+  color: #ff8c77;
+}
+
+.customers__card__comment {
+  font-size: 1.5rem;
+  color: #989898;
+  line-height: 1.7;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.customers__card__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.customers__card__profile__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'gilory';
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.customers__card__profile__title * {
+  display: inline-block;
+}
+
+.customers__card__profile__title__name {
+  letter-spacing: 0.5px;
+  margin-bottom: 0.3rem;
+}
+
+.customers__card__profile__title__job {
+  color: #989898;
+}
+
+.customers__card__profile__image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .primary-btn {
   display: inline-block;
   color: white;
